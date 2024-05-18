@@ -1,0 +1,15 @@
+<%- include('partials/header') %>
+<div class="alert alert-primary"> 
+ <form method="post" action="/insert">
+    <label for="exampleFormControlInput1" class="form-label">BLOG TITLE</label>
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Title" name="title">
+ 
+ 
+    <label for="exampleFormControlTextarea1" class="form-label">BLOG</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" name="body"></textarea>
+   <br>
+    <button class="btn btn-primary" type="submit">Submit</button>
+ </form>
+   
+</div>
+<%- include('partials/footer') %>
